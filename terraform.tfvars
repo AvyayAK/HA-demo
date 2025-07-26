@@ -39,6 +39,6 @@ private_subnet_cidrs = [
 ]
 
 db_username = "flaskadmin"
-db_password = "uperSecurePass123"
+db_password = "*********"
 
-email-id = "swathijay08@gmail.com"
+email-id = "***********"
