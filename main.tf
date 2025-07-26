@@ -20,13 +20,13 @@ locals {
 }
 
 data "aws_acm_certificate" "selected" {
-  domain      = "*.swathi-apps.cloud"
+  domain      = "*.example-apps.cloud"
   statuses    = ["ISSUED"]
   most_recent = true
 }
 
 data "aws_route53_zone" "selected" {
-  zone_id = "Z0895668B7PNXFD9BVZB"
+  zone_id = "***************"
   #private_zone = false
 }
 
